@@ -1,0 +1,130 @@
+
+:root {
+  --green: hsl(158, 36%, 37%)
+  --dark-green:  hsl(158, 43%, 24%);
+  --cream: hsl(30, 38%, 92%)
+
+  --dark-blue: hsl(212, 21%, 14%)
+  --dark-grey: hsl(228, 12%, 48%)
+
+  --white: hsl(0, 0%, 100%)
+  /* --black: hsl(0, 0%, 100%) */
+  --grey: hsl(0, 0%, 50%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 1rem;
+  
+}
+
+body {
+  margin: 2em;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(228, 12%, 48%);
+  margin: 0;
+ 
+  
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 12px 12px 0 0;
+}
+
+main {
+  background-color:  hsl(30, 38%, 92%);
+  padding: 2em 1em;
+  width: 90%;
+  margin: 0 auto;   
+}
+
+.product-info-wrapper {
+  border-radius: 0 0 12px 12px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5em;
+}
+
+.overline {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin: 0;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1em;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 0.5em;
+
+}
+
+.description {
+  color:  hsl(228, 12%, 48%);
+  font-size: 0.9rem;
+  margin-bottom: 1.3em;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1.3em;
+}
+
+.sale-price {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+}
+
+.full-price {
+  color:  hsl(228, 12%, 48%);
+  font-size: 0.8rem;
+  text-decoration: line-through;
+}
+
+.btn {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8em;
+  background-color: hsl(158, 36%, 37%);
+  color: #FFF;
+  border-radius: 8px;
+  border: none;
+  padding: 1em 0;
+  margin-bottom: 0.8em;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: hsl(158, 43%, 24%);
+}
+
+  .attribution {
+    text-align: center;
+    font-size: 0.7rem;
+    color: hsl(30, 38%, 92%);
+    margin: 1em 0;
+  }
+
+  .attribution a {
+    font-size: 0.7rem;
+    color: hsl(30, 38%, 92%);
+  }
+
+
