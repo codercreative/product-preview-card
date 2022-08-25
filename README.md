@@ -69,7 +69,7 @@ Unexpected issue: When I entered the border radius for the top of the product ca
 
 ### Interesting Article
 
-I have been used hex codes for colors up until now. For this project, I decided on sticking with the hsl code format that Frontendmentor provided.
+I have been using hex codes for colors up until now. For this project, I decided on sticking with the hsl code format that Frontendmentor provided.
 
 This article discusses the pros and cons of different color formats: [hsl vs hex vs rgb](https://blog.bitsrc.io/hex-vs-rgb-vs-hsl-what-is-the-best-method-to-set-css-color-property-f45d2debeee)
 
