@@ -24,7 +24,11 @@
 }
 
 body {
-  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   background-color:  hsl(30, 38%, 92%);
 }
